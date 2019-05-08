@@ -1,0 +1,4 @@
+#上下文初始化
+org.springframework.context.ApplicationContextInitializer=zj.factories.MyApplicationContextInitializer
+#应用整个运行周期监听器
+org.springframework.boot.SpringApplicationRunListener=zj.factories.MySpringApplicationRunListener
