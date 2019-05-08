@@ -1,4 +1,4 @@
-package zj.factories;
+package factories;
 
 import org.springframework.boot.SpringBootExceptionReporter;
 import org.springframework.context.ConfigurableApplicationContext;

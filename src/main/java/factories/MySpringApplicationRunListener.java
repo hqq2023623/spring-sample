@@ -1,4 +1,4 @@
-package zj.factories;
+package factories;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplicationRunListener;
@@ -21,37 +21,37 @@ public class MySpringApplicationRunListener implements SpringApplicationRunListe
 
     @Override
     public void starting() {
-        System.out.println("SpringApplicationRunListener starting");
+        System.out.println("MySpringApplicationRunListener starting");
     }
 
     @Override
     public void environmentPrepared(ConfigurableEnvironment environment) {
-        System.out.println("SpringApplicationRunListener environmentPrepared");
+        System.out.println("MySpringApplicationRunListener environmentPrepared");
     }
 
     @Override
     public void contextPrepared(ConfigurableApplicationContext context) {
-        System.out.println("SpringApplicationRunListener contextPrepared");
+        System.out.println("MySpringApplicationRunListener contextPrepared");
     }
 
     @Override
     public void contextLoaded(ConfigurableApplicationContext context) {
-        System.out.println("SpringApplicationRunListener contextLoaded");
+        System.out.println("MySpringApplicationRunListener contextLoaded");
     }
 
     @Override
     public void started(ConfigurableApplicationContext context) {
-        System.out.println("SpringApplicationRunListener started");
+        System.out.println("MySpringApplicationRunListener started");
     }
 
     @Override
     public void running(ConfigurableApplicationContext context) {
-        System.out.println("SpringApplicationRunListener running");
+        System.out.println("MySpringApplicationRunListener running");
     }
 
     @Override
     public void failed(ConfigurableApplicationContext context, Throwable exception) {
-        System.out.println("SpringApplicationRunListener failed");
+        System.out.println("MySpringApplicationRunListener failed");
     }
 
 }

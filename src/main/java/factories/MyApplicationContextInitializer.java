@@ -1,4 +1,4 @@
-package zj.factories;
+package factories;
 
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
